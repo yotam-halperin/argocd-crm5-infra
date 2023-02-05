@@ -8,6 +8,6 @@ spec:
   source:
     repoURL: git@github.com:yotam-halperin/argocd-crm5-charts.git
     targetRevision: HEAD
-    path: ingress-nginx
+    path: apps/ingress-nginx
   destination:
     server: https://kubernetes.default.svc

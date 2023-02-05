@@ -8,6 +8,6 @@ spec:
   source:
     repoURL: git@github.com:yotam-halperin/argocd-crm5-charts.git
     targetRevision: HEAD
-    path: cert-manager
+    path: apps/cert-manager
   destination:
     server: https://kubernetes.default.svc
